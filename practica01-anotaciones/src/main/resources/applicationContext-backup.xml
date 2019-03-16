@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="net.tecgurus.interfaces.implementaciones.SaludoGoT"
+		name="saludo01">
+	</bean>
+
+	<!-- Presidente -->
+	<bean
+		class="net.tecgurus.interfaces.implementaciones.PresidenteLopezObrador"
+		name="peje"></bean>
+	<!-- Reportero -->
+	<bean class="net.tecgurus.interfaces.implementaciones.AdelaMicha"
+		name="rep01">
+		<constructor-arg ref="peje"></constructor-arg>
+	</bean>
+	<!-- Conferencia -->
+	<bean
+		class="net.tecgurus.interfaces.implementaciones.ConferenciaMatutina"
+		name="confTelevision">
+		<property name="reportero" ref="rep01"></property>
+	</bean>
+
+
+</beans>
