@@ -1,0 +1,13 @@
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/entities/CatalogoGeneral.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/dao/impl/ClienteDAO.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/dao/AbstractHibernateDao.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/entities/Cliente.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/entities/CuentasCliente.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/dao/impl/CatalogoGeneralDAOImpl.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/main/Main.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/dao/impl/CuentaDAO.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/dao/CatalogoGeneralDAO.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/entities/MovimientosCuenta.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/dao/impl/CuentasClienteDAO.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/entities/Cuenta.java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/spring-persistencia/src/main/java/net/tecgurus/persistence/dao/MovimientosCuentaDAO.java

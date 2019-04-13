@@ -1,0 +1,13 @@
+net/tecgurus/persistence/dao/impl/CatalogoGeneralDAOImpl.class
+net/tecgurus/persistence/entities/Cliente.class
+net/tecgurus/persistence/dao/impl/CuentasClienteDAO.class
+net/tecgurus/persistence/dao/CatalogoGeneralDAO.class
+net/tecgurus/persistence/entities/CatalogoGeneral.class
+net/tecgurus/persistence/entities/MovimientosCuenta.class
+net/tecgurus/persistence/entities/CuentasCliente.class
+net/tecgurus/persistence/dao/MovimientosCuentaDAO.class
+net/tecgurus/main/Main.class
+net/tecgurus/persistence/entities/Cuenta.class
+net/tecgurus/persistence/dao/AbstractHibernateDao.class
+net/tecgurus/persistence/dao/impl/ClienteDAO.class
+net/tecgurus/persistence/dao/impl/CuentaDAO.class
