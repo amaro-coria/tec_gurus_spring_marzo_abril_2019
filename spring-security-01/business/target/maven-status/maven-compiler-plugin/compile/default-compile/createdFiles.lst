@@ -1,0 +1,5 @@
+net/tecgurus/business/service/CuentaService.class
+net/tecgurus/business/service/ClienteService.class
+net/tecgurus/business/facade/CatalogoFacade.class
+net/tecgurus/business/service/CuentasClienteService.class
+net/tecgurus/business/facade/ClienteCtasFacade.class

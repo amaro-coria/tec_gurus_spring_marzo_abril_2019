@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/50894291.index
+/hola-mundo-web/src/main/java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/669664684.index
+/e/src/main/java
+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3185003088.index
+/hola-mundo-web/src/main/java

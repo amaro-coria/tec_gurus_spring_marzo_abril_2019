@@ -1,0 +1,13 @@
+package net.tecgurus.business.facade;
+
+import org.springframework.stereotype.Component;
+
+//@Service
+@Component
+public class ClienteCtasFacade {
+
+	public void altaClienteCta() {
+		
+	}
+	
+}

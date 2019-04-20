@@ -1,0 +1,33 @@
+package net.tecgurus.business.facade;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import net.tecgurus.common.dto.ClienteDTO;
+import net.tecgurus.persistence.dao.impl.ClienteDAO;
+import net.tecgurus.persistence.entities.Cliente;
+
+@Service
+public class ClienteService {
+
+	@Autowired
+	private ClienteDAO dao;
+	
+	public Integer save(ClienteDTO clienteDTO) {
+		try {
+			Cliente entity = new Cliente();
+			entity.setApeMatCte(clienteDTO.getApeMatCte());
+			entity.setApePatCte(clienteDTO.getApePatCte());
+			entity.setDirCte(clienteDTO.getDirCte());
+			entity.setIdEdoCte(clienteDTO.getIdEdoCte());
+			entity.setNomCte(clienteDTO.getNomCte());
+			entity.setTelCte(clienteDTO.getTelCte());
+			Integer id = (Integer) dao.create(entity);
+			return id;
+		}catch(Exception e) {
+			throw new 
+		}
+		
+	}
+	
+}
