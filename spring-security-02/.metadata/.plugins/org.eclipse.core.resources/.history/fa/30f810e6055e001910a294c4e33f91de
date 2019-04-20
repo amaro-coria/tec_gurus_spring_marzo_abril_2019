@@ -1,0 +1,5 @@
+package net.tecgurus.persistence.dao.impl;
+
+public class CuentasCliente {
+
+}

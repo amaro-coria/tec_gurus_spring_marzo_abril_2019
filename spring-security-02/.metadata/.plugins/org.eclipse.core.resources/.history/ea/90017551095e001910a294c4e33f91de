@@ -1,0 +1,32 @@
+package net.tecgurus.business.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import net.tecgurus.common.dto.CuentasClienteDTO;
+import net.tecgurus.common.exception.ServiceException;
+import net.tecgurus.persistence.dao.impl.CuentasClienteDAO;
+import net.tecgurus.persistence.entities.CuentasCliente;
+
+@Service
+public class CuentasClienteService {
+
+	@Autowired
+	private CuentasClienteDAO dao;
+	
+	public Integer saveCtaCliente(CuentasClienteDTO dto) throws ServiceException {
+		try {
+			CuentasCliente entity = new CuentasCliente();
+			entity.setIdCta(dto.getIdCta());
+			entity.setIdCtaCte(dto.getIdCtaCte());
+			entity.setFchCre(dto.getFchCre());
+			entity.setCmntCtaCte(dto.getCmntCtaCte());
+			entity.setIdTipCtaCte(dto.getIdTipCtaCte());
+			return (Integer) dao.create(entity);
+		}catch(Exception e) {
+			throw new ServiceException();
+		}
+		
+	}
+	
+}

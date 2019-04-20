@@ -1,0 +1,7 @@
+package net.tecgurus.persistence.dao.impl;
+
+import net.tecgurus.persistence.dao.AbstractHibernateDao;
+
+public class CuentasCliente extends AbstractHibernateDao<CuentasCliente>{
+
+}

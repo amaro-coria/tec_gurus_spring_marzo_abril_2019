@@ -1,0 +1,5 @@
+package net.tecgurus.auth;
+
+public class UserAuthentication {
+
+}

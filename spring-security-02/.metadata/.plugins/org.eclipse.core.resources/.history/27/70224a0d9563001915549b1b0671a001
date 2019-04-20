@@ -1,0 +1,25 @@
+package net.tecgurus.auth;
+
+import org.springframework.security.config.annotation.authentication.configurers.provisioning.UserDetailsManagerConfigurer.UserDetailsBuilder;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+import net.tecgurus.business.service.RoleService;
+import net.tecgurus.business.service.UserService;
+
+public class UserAuthentication implements UserDetailsService{
+	
+	private UserService service;
+	
+	private RoleService serviceRol;
+
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		//1 - username, 2 - password, 3 - roles
+		
+		
+		//User user = new 
+	}
+
+}

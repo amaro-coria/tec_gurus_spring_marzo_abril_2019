@@ -1,0 +1,44 @@
+package net.tecgurus.persistence.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Usuarios")
+public class Usuarios {
+	
+	private Integer idUsuario;
+	private String nombreUsuario;
+	private String passwordUsuario;
+	private Integer habilitado;
+	
+	
+	public Integer getIdUsuario() {
+		return idUsuario;
+	}
+	public void setIdUsuario(Integer idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+	public String getNombreUsuario() {
+		return nombreUsuario;
+	}
+	public void setNombreUsuario(String nombreUsuario) {
+		this.nombreUsuario = nombreUsuario;
+	}
+	public String getPasswordUsuario() {
+		return passwordUsuario;
+	}
+	public void setPasswordUsuario(String passwordUsuario) {
+		this.passwordUsuario = passwordUsuario;
+	}
+	public Integer getHabilitado() {
+		return habilitado;
+	}
+	public void setHabilitado(Integer habilitado) {
+		this.habilitado = habilitado;
+	}
+	
+	
+	
+
+}

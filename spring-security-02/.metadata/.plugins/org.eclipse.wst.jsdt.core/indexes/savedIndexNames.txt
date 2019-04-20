@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/amaro/WORKSPACE_HOME/TEC_GURUS_SPRING/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1256593737.index
+572597620.index
+2989256233.index
+972715342.index
+2964053642.index
+580097056.index

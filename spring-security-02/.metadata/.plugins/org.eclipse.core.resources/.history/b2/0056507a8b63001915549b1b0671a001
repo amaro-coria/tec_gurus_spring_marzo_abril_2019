@@ -1,0 +1,13 @@
+package net.tecgurus.persistence.entities;
+
+public class Roles {
+	
+	private Integer idRol;
+	
+	private String nombreRol;
+	
+	private String descRol;
+	
+	private Integer habilitado;
+
+}

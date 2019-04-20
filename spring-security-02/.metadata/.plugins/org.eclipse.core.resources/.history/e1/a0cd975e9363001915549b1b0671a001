@@ -1,0 +1,25 @@
+package net.tecgurus.persistence.dao.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import net.tecgurus.persistence.dao.AbstractHibernateDao;
+import net.tecgurus.persistence.entities.Roles;
+
+@Repository
+public class RolDAO extends AbstractHibernateDao<Roles> {
+
+	public List<Roles> findRolesByUsername(String username) {
+		String sql = "  FROM Roles r where r.idRol =   ";
+		/*
+		 * select u.nombre_usuario, r.rol_nombre from
+  Usuarios u INNER JOIN Usuario_Roles ur 
+    ON u.id_usuario = ur.id_usuario
+      INNER JOIN Roles r
+        ON r.id_rol = ur.id_rol
+  WHERE u.nombre_usuario like 'admin'
+		 * */
+	}
+	
+}

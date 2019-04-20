@@ -1,0 +1,23 @@
+package net.tecgurus.business.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import net.tecgurus.common.dto.RolDTO;
+import net.tecgurus.persistence.dao.impl.RolDAO;
+
+@Service
+@Transactional
+public class RoleService {
+
+	private RolDAO dao;
+	
+	
+	public List<RolDTO> findRolesByUsername(String username){
+		
+	}
+	
+	
+}

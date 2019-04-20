@@ -1,0 +1,9 @@
+package net.tecgurus.common.dto;
+
+public class UsuarioDTO {
+	
+	private Integer idUser;
+	private String username;
+	private String password;
+
+}

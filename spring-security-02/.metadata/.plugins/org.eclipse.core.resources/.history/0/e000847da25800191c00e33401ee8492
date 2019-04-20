@@ -1,0 +1,15 @@
+package net.tecgurus.business.facade;
+
+import java.util.List;
+
+import net.tecgurus.common.dto.CatalogoDTO;
+
+public class CatalogoFacade {
+	
+	private 
+	
+	public List<CatalogoDTO> findAll(){
+		
+	}
+
+}

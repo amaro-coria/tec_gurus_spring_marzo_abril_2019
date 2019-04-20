@@ -1,0 +1,21 @@
+package net.tecgurus.business.facade;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import net.tecgurus.common.dto.CatalogoDTO;
+import net.tecgurus.persistence.dao.CatalogoGeneralDAO;
+
+@Service
+public class CatalogoFacade {
+	
+	@Autowired
+	private CatalogoGeneralDAO dao;
+	
+	public List<CatalogoDTO> findAll(){
+		
+	}
+
+}

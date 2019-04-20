@@ -1,0 +1,8 @@
+package net.tecgurus.persistence.dao.impl;
+
+import net.tecgurus.persistence.dao.AbstractHibernateDao;
+import net.tecgurus.persistence.entities.UsuariosRoles;
+
+public class UsuarioRolDAO extends AbstractHibernateDao<UsuariosRoles> {
+
+}

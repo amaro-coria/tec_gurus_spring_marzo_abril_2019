@@ -1,0 +1,5 @@
+package net.tecgurus.common.dto;
+
+public class RolDTO {
+
+}

@@ -1,0 +1,5 @@
+package net.tecgurus.persistence.entities;
+
+public class Usuarios {
+
+}

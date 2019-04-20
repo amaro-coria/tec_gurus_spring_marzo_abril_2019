@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;business/src/main/java/net.tecgurus.business.service&apos;&#x0A;- Original project: &apos;business&apos;&#x0A;- Destination element: &apos;business/src/main/java/net.tecgurus.business.service&apos;&#x0A;- Original elements:&#x0A;     net.tecgurus.business.facade.CuentaService.java&#x0A;     net.tecgurus.business.facade.ClienteService.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src\/main\/java&lt;net.tecgurus.business.service" element1="/src\/main\/java&lt;net.tecgurus.business.facade{CuentaService.java" element2="/src\/main\/java&lt;net.tecgurus.business.facade{ClienteService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1555171396851" units="2" version="1.0"/>
+</session>

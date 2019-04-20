@@ -1,0 +1,20 @@
+package net.tecgurus.persistence.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Roles")
+public class Roles {
+	
+	@Column(name = "id_rol")
+	private Integer idRol;
+	@Column(name = "rol_nombre")
+	private String nombreRol;
+	@Column(name = "desc_rol")
+	private String descRol;
+	@Column(name = "habilitado")
+	private Integer habilitado;
+
+}

@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Sat Apr 20 13:16:49 CDT 2019
+org.eclipse.jst.jee.server\:/binary\:/Users/amaro/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar=WEB-INF/lib/spring-web-5.1.5.RELEASE.jar
+org.eclipse.jst.j2ee.server\:business=WEB-INF/lib/business-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:spring-persistencia=WEB-INF/lib/spring-persistencia-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:commons=WEB-INF/lib/commons-0.0.1-SNAPSHOT.jar
